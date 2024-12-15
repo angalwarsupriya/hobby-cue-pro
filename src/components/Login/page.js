@@ -101,9 +101,15 @@ function Login() {
                  </div>
 
                  <div className='continue-with-con'>
-                   <div className='box'></div>
+                   <div className='box'>
+                   <FcGoogle className='g-i'/>
+                   <p className='continue-p'>Continue with Google.</p>
+                   </div>
                   
-                   <div className='box'></div>
+                   <div className='box'>
+                   <FaFacebook className='g-i'/>
+                   <p className='continue-p'>Continue with Facebook.</p>
+                   </div>
                  </div>
 
                 <div className='lin-con d-flex'>
