@@ -27,67 +27,75 @@ const linksList=[
 function Footer() {
   return (
     <>
-    <footer className='row footer-bg-con'>
-        {linksList.map((eachDetails)=>(
-            <div className='col-3'>
-                <h6 className='footer-link-title'>{eachDetails.footerlinkTitle}</h6>
-                {eachDetails.links.map((eachLink)=>(
-                    <a className='link d-block mt-2'>{eachLink}</a>
-                ))}
-            </div>
-        ))}
-        <div className='col-3 contact-con'>
+    <footer className='container footer-bg-con'>
+
+        <div className='row ps-3'>
+
+            {linksList.map((eachDetails)=>(
+                <div className='col-6 col-md-3 info-con'>
+                   <h6 className='footer-link-title'>{eachDetails.footerlinkTitle}</h6>
+                    {eachDetails.links.map((eachLink)=>(
+                       <a className='link d-block'>{eachLink}</a>
+                    ))}
+                </div>
+            ))}
+
+
+           <div className='col-12 col-md-3 contact-con'>
             <div>
-            <h6 className='footer-link-title'>Social Media</h6>
-            <div className='social-media-icons-row d-flex'>
-                <div className='icon-con d-flex align-items-center justify-content-center'>
-                    <TfiFacebook className='media-icon'/>
+                <h6 className='footer-link-title'>Social Media</h6>
+                <div className='social-media-icons-row d-flex'>
+                   <div className='icon-con d-flex align-items-center justify-content-center'>
+                      <TfiFacebook className='media-icon'/>
+                    </div>
+                    <div className='icon-con d-flex align-items-center justify-content-center'>
+                       <FaTwitter className='media-icon'/>
+                    </div>
+                    <div className='icon-con d-flex align-items-center justify-content-center'>
+                       <AiFillInstagram className='media-icon'/>
+                    </div>
+                    <div className='icon-con d-flex align-items-center justify-content-center'>
+                      <AiOutlineGooglePlus className='media-icon'/>
+                    </div>
+                    <div className='icon-con d-flex align-items-center justify-content-center'>
+                       <FaYoutube className='media-icon'/>
+                    </div>
+                    <div className='icon-con d-flex align-items-center justify-content-center'>
+                      <IoIosPaperPlane className='media-icon'/>
+                    </div>
+                    <div className='icon-con d-flex align-items-center justify-content-center'>
+                      <IoMail className='media-icon'/>
+                    </div>
                 </div>
-                <div className='icon-con d-flex align-items-center justify-content-center'>
-                    <FaTwitter className='media-icon'/>
-                </div>
-                <div className='icon-con d-flex align-items-center justify-content-center'>
-                    <AiFillInstagram className='media-icon'/>
-                </div>
-                <div className='icon-con d-flex align-items-center justify-content-center'>
-                    <AiOutlineGooglePlus className='media-icon'/>
-                </div>
-                <div className='icon-con d-flex align-items-center justify-content-center'>
-                    <FaYoutube className='media-icon'/>
-                </div>
-                <div className='icon-con d-flex align-items-center justify-content-center'>
-                    <IoIosPaperPlane className='media-icon'/>
-                </div>
-                <div className='icon-con d-flex align-items-center justify-content-center'>
-                    <IoMail className='media-icon'/>
-                </div>
-            </div>
             </div>
 
 
-            <div>
-               <h6 className='footer-link-title mt-5'>Invite Friend</h6>
-               <div className='search-bar-con'>
+        <div className='invite-friens-con'>
+            <h6 className='footer-link-title'>Invite Friend</h6>
+            <div className='search-bar-con'>
               <input type='search' className='search-bar' placeholder='Email ID'/>
               <div className='footer-search-icon-con'>
                 Invite
               </div>
             </div>
-            </div>
-
         </div>
 
-        </footer>
+        </div>
+    </div>
+  
 
 
-        <div className='row c-row'>
+      <div className='row c-row'>
         <div className='c-con col-12 m-0 d-flex justify-content-center align-items-center '>
             <div className='d-flex align-items-center'>
                <MdOutlineCopyright className='c-icon'/>
                <p className='c'>Purple Cues Private Limited</p>
             </div>
         </div>
+        
         </div>
+
+    </footer>
         </>
 
   )

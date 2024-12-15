@@ -3,13 +3,13 @@
     width: 87vw;
 }
 .card-con{
-    height: 260px;
     border-radius: 10px;
     border:1px solid;
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 20px;
 }
 .icon{
     font-size: 30px;
@@ -32,4 +32,86 @@ line-height: 30px;
 }
 .top-row{
     margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width:576px){
+    .card-con{
+        padding: 20px;
+       
+    }
+}
+.icon1{
+    color: #8064A2;
+}
+.icon2{
+    color: #77933C;
+}
+.icon3{
+    color: #C0504D;
+}
+.icon4{
+    color:"#0096C8"
+}
+.card-con4:hover{
+    background-color:#0096C8;
+    .card-btn{
+        display: none;
+    }
+    .card-p{
+        color: rgb(207, 206, 206);
+    }
+    .title{
+        color: white;
+    }
+    .icon4{
+        color: white;
+    }
+}
+
+.card-con2:hover{
+    background-color:#77933C;
+    .card-btn{
+        display: none;
+    }
+    .card-p{
+        color: rgb(207, 206, 206);
+    }
+    .title{
+        color: white;
+    }
+    .icon2{
+        color: white;
+    }
+}
+.card-con3:hover{
+    background-color:#C0504D;
+    .card-btn{
+        display: none;
+    }
+    .card-p{
+        color: rgb(207, 206, 206);
+    }
+    .title{
+        color: white;
+    }
+    .icon3{
+        color: white;
+    }
+}
+.card-con1:hover{
+    background-color:#8064A2;
+    .card-btn{
+        display: none;
+    }
+    .card-p{
+        color: rgb(207, 206, 206);
+    }
+    .title{
+        color: white;
+    }
+    .icon1{
+        color: white;
+    }
 }

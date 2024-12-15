@@ -22,6 +22,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   width: 100vw;
+
 }
 
 * {
@@ -44,4 +46,7 @@ h4{
   color: #0a0a0a;
   font-size: 25px;
   font-weight: 600;
+}
+.container{
+ padding: 0px;
 }

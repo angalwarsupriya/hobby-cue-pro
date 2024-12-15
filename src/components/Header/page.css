@@ -1,14 +1,19 @@
 .header-bg-con{
     width: 100vw;
-    padding: 0px;
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 10%;
     padding-top: 20px;
     padding-bottom: 10px;
+
+}
+.header-row{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .logo-img{
     height:50px;
-    width: 80%;
+    width:80%;
 }
 .search-bar-con{
     width: 100%;
@@ -83,4 +88,71 @@ p{
 }
 .link-p{
     margin: 5px;
+}
+.i-con{
+    display: flex;
+    justify-content: end;
+    padding-right: 5%;
+}
+.i{
+    font-size: 21px;
+    color: #8064A2;
+    margin-right: 10px;
+}
+@media screen and (max-width:576px){
+.logo-img{
+    height: 32px;
+    width: 120px;
+
+}
+
+
+}
+
+@media screen and (min-width:5778px) and (max-width:768px){
+    .logo-img{
+        height: 30px;
+        width: 120px;
+    }
+
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1200px){
+    .logo-img{
+        height: 46px;
+        width: 110px;
+    }
+    .search-bar-con{
+        height: 30px;
+    }
+    .link-i1{
+        font-size: 19px;
+        margin-right: 5px;
+    }
+    .link-i2{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .link-i3{
+        font-size: 21px;
+        margin-right: 5px;
+    }
+    .sign-in-btn{
+        height: 30px;
+        width: 80px;
+        font-size: 10px;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    .down{
+        font-size: 12px;
+    }
+    .link-img{
+        height: 12px;
+        width: 12px;
+    }
+    
 }

@@ -4,6 +4,7 @@ import './page.css'
 
 function Main() {
   return (
+    
     <div className='bg-con' >
         <div className='hea-btn-con'>
         <h1 className='main-hea'>Your <span className='main-span-hobby'>Hobby</span>, Your <span className='main-span-community'>Community...</span></h1>

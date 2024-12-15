@@ -3,7 +3,14 @@
 
 }
 .add-own-card-con{
-    height: 250px;
+  
     border: 1px solid gray;
     border-radius: 5px;
+    padding: 30px;
+    margin-top: 50px;
+}
+@media screen and (max-width:576px){
+    .add-own-card-con{
+    padding: 20px;
+}
 }

@@ -26,11 +26,28 @@
     margin-top: 20px;
 }
 .main-img-con{
-    height:280px;
+    height:24vh;
     width: 100%;
     margin-top:50px;
 }
 .main-img-img{
     height:100%;
     width: 100%;
+}
+@media screen and (max-width:576px){
+   .main-img-con{
+    height: 100px;
+   }
+   .main-hea{
+    font-size: 25px;
+   }
+   .get-start-btn{
+    font-size: 12px;
+    font-weight: 300;
+    height: 35px;
+    width: 100px;
+    border:none;
+    border-radius: 3px;
+    margin-top: 10px;
+   }
 }

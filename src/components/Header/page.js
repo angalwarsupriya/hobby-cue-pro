@@ -1,6 +1,11 @@
 import React from 'react'
 import './page.css'
 
+import { IoIosSearch } from "react-icons/io";
+import { MdMenu } from "react-icons/md";
+
+
+
 import { PiShoppingCartSimpleFill } from "react-icons/pi";
 
 import { FaBell } from "react-icons/fa"
@@ -11,21 +16,27 @@ import { FaChevronDown } from "react-icons/fa";
 
 function Header() {
   return (
-    <header className='row header-bg-con d-flex align-items-center'>
-        <div className='col-3 con1'>
-            <img src='/images/HobbyCue Logo.png' className='logo-img'/>
+    <header className='header-bg-con d-flex align-items-center'>
+      <div className='row header-row'>
+      
+        <div className='col-5 col-md-2 col-md-2  con1' >
+          <img src='/images/HobbyCue Logo.png' className='logo-img'/>
         </div>
 
-        <div className='col-4 con2'>
+
+
+        <div className='col-5 col-md-4 col-lg-4 con2  d-none d-md-flex'>
             <div className='search-bar-con'>
               <input type='search' className='search-bar'/>
-              <div className='search-icon-con'>
-
+              <div className='search-icon-con d-flex justify-content-center align-items-center'>
+                    <IoIosSearch style={{color:"#fff", fontSize:'16px'}}/>
               </div>
             </div>
         </div>
+
+
         
-        <div className='col-5 con3 d-flex justify-content-between'>
+        <div className='col-md-6 col-lg-5 con3 d-flex justify-content-between d-none d-md-flex'>
 
            <div className='pop-up-links-con d-flex align-items-center justify-content-between'>
               <div className='explore-con d-flex align-items-center justify-content-between'>
@@ -36,7 +47,7 @@ function Header() {
 
               <div className='hobbies-con d-flex align-items-center justify-content-between'>
                 <img src='/images/Hobbies.png' className='link-img'/>
-                <p className='link-p'>Explore</p>
+                <p className='link-p'>Hobbies</p>
                 <FaChevronDown className='down'/>
               </div>
            </div>
@@ -50,6 +61,14 @@ function Header() {
 
            
            <button className='sign-in-btn'>Sign In</button>
+        </div>
+        
+         <div className='col-7 d-flex d-md-none i-con'>
+          <IoIosSearch className='i'/>
+           <FaBell className='i'/>
+           <MdMenu className='i'/>
+         </div>
+
         </div>
     </header> 
   )
