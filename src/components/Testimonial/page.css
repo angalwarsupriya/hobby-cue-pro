@@ -1,0 +1,48 @@
+.testimonail-bg-con{
+margin-top: 80px;
+display: flex;
+justify-content: center;
+}
+.testimonail-card{
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.quote-round{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8064A2;
+    color: antiquewhite;
+    margin-right: 20px;
+}
+.quote-icon{
+    color: white;
+}
+.card-bottom-con{
+    width: 100%;
+    height: 70px;
+}
+.audio-face-img{
+  height: 90%;
+  width: 60px;
+}
+.audio-img{
+    height: 100%;
+    width: 65%;
+}
+.face-img-con{
+    height: 100%;
+    width: 30%;
+}
+
+h6{
+    font-size: 15px;
+    color: #8064A2;
+}
+.type-p{
+    font-size: 12px;
+    color: #0096C8;
+}

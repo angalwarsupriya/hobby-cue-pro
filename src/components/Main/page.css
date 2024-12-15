@@ -1,0 +1,36 @@
+.bg-con{
+    width: 80vw;
+    margin-top: 80px;
+}
+
+.main-hea{
+    font-style: italic;
+    font-size: 30px;
+    font-weight: 800;
+}
+.main-span-hobby{
+    color:#8064A2;
+}
+.main-span-community{
+    color: #0096C8;
+}
+.get-start-btn{
+    background-color: #8064A2;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    height: 40px;
+    width: 130px;
+    border:none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.main-img-con{
+    height:280px;
+    width: 100%;
+    margin-top:50px;
+}
+.main-img-img{
+    height:100%;
+    width: 100%;
+}

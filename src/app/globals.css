@@ -5,8 +5,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #fdf8f8;
+    --foreground: #1d1c1c;
   }
 }
 
@@ -39,4 +39,9 @@ a {
   html {
     color-scheme: dark;
   }
+}
+h4{
+  color: #0a0a0a;
+  font-size: 25px;
+  font-weight: 600;
 }

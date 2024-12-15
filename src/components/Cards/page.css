@@ -1,0 +1,35 @@
+.cards-bg-con{
+    background-color: rgb(249, 249, 249);
+    width: 87vw;
+}
+.card-con{
+    height: 260px;
+    border-radius: 10px;
+    border:1px solid;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.card-btn{
+  height: 35px;
+  width: 120px;
+  color: #8064A2;
+  border:1px solid #8064A2;
+  background-color: transparent;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.card-p{
+font-size: 17px;
+color: rgb(35, 35, 35);
+line-height: 30px;
+}
+.top-row{
+    margin-bottom: 20px;
+}

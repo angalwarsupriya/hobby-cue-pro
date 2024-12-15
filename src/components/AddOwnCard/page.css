@@ -1,0 +1,9 @@
+.add-own-card-bg-con{
+    width: 87vw;
+
+}
+.add-own-card-con{
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
